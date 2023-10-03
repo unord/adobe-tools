@@ -2,7 +2,7 @@ from tools import *
 
 
 
-def adobe_find_students_not_at_unord(csv_adbobe_file :str, csv_studsys_file :str):
+def adobe_find_students_not_at_unord(csv_adbobe_file: str, csv_studsys_file: str) -> None:
     adobe_directory = './csv_adobe_complete/'
     adobe_delete_list = './csv_adobe_delete_list/'
     studsys_directory = './csv_studsys_complete/'

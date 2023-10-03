@@ -2,13 +2,13 @@ from tools import *
 import shutil
 
 
-def move_files():
+def move_files() -> None:
     file_list = filename_list_with_extension('csv_import', 'csv')
 
     for file in file_list:
         shutil.move(file, './csv_export')
 
-def studsys_import_csv_files():
+def studsys_import_csv_files() -> None:
     file_list = filename_list_with_extension('csv_import', 'csv')
 
     for file in file_list:
