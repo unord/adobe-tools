@@ -47,10 +47,3 @@ For oprette hele klaser kan følgende gøres:
 6. Importer csv filerne fra /csv_export til brugeropretelse: https://adminconsole.adobe.com/3A7C3F955A8FDAEC0A495C1D@AdobeOrg/users
 7. Importer csv filerne fra /csv_export til prudukt tilladelse: https://adminconsole.adobe.com/3A7C3F955A8FDAEC0A495C1D@AdobeOrg/products/F548158E1A5DF531DFAA/profiles/57376189/users
 
-
-## Funktioner i tools.py
-
-Forskellige hjælpefunktioner til håndtering af CSV-filer. Her er nogle eksempler:
-
-- `csv_clean_to_comma(file_name: str)`: Renser en CSV-fil ved at erstatte semikolon med komma.
-- `csv_add_column_with_fixed_variable(file_name: str, column_name: str, column_data: str)`: Tilføjer en ny kolonne med en fast værdi.
